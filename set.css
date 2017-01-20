@@ -1,0 +1,114 @@
+body{
+          background: url("images/sea.jpg");
+        } 
+
+p{
+  font-family: roboto;
+  font-size: large;
+          color: white;
+          margin-top: 300px;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-bottom: 100px;
+        }
+
+#container{
+      padding-top: 50px;
+          font-family: roboto;
+
+          font-size: xx-large;
+          text-align: center;
+          margin-top: ;
+          color: white;
+          size: xx-large;  
+        }
+
+#footer{
+  font-family: roboto;
+  font-size: small;
+          text-align: center;
+          margin-top: ;
+          color: white
+        }
+
+nav{
+        
+          font-family: roboto;
+          background-color: ;
+          margin: 100px;
+          width: auto;
+            display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          border-radius: ;
+          list-style-type: none;
+        }
+
+        a{
+          text-decoration: none;
+          color: white;
+          flex: 1;
+          height: 30px;
+          font-family: roboto;
+          padding: 20px;
+          padding-top: 30px;
+          text-align: center;
+          font-size: 2em;
+          border: 1px solid white; 
+        }
+
+#logoNav{
+          font-size: 2em;
+          font-weight: bold;
+        }
+            
+        @media screen and (min-width: 500px){
+          nav{
+            flex-flow: row;
+            align-items: baseline;
+        }
+}
+        img{
+          flex-direction: row;
+          position: relative;
+          border: 2px solid black;
+        }
+
+
+.islands {
+  display: none;
+  flex-flow: column-reverse;
+
+ 
+
+        
+          
+}
+
+.dropdown-content {
+
+          width: auto;
+            display: flex;
+          flex-direction: column;
+
+
+}
+
+.dropdown-content a {
+  flex-flow: column-reverse;
+ 
+
+  font-size: medium;
+
+    padding: 10px 10px;
+    text-decoration: none;
+   
+    text-align: ;
+}
+
+.dropdown-content a:hover {background-color: ;
+
+}
+
+
+.show {display:block;}
