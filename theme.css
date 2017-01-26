@@ -1,0 +1,74 @@
+body{
+          background: url("images/sea.jpg");
+        } 
+
+p{
+  font-family: roboto;
+  font-size: large;
+          color: white;
+          margin-top: 300px;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-bottom: 200px;
+        }
+
+#header{
+      padding-top: 50px;
+          font-family: roboto;
+
+          font-size: xx-large;
+          text-align: center;
+          margin-top: ;
+          color: white;
+          size: xx-large;  
+        }
+
+#footer{
+  font-family: roboto;
+  font-size: small;
+          text-align: center;
+          margin-top: ;
+          color: white
+        }
+
+
+
+
+
+
+nav{
+        
+          font-family: roboto;
+          background-color: ;
+          margin: 100px;
+          width: auto;
+            display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          border-radius: ;
+          list-style-type: none;
+        }
+
+        a{
+          text-decoration: none;
+          color: white;
+          flex: 4;
+          height: auto;
+          font-family: roboto;
+          padding: 5px;
+          padding-top: 30px;
+          padding-bottom: 15px;
+          text-align: center;
+          font-size: 2em;
+          border: 1px solid white; 
+        }
+
+
+            
+        @media screen and (min-width: 500px){
+          nav{
+            flex-flow: row;
+            align-items: baseline;
+        }
+}
+   
