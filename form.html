@@ -1,80 +1,112 @@
 <DOCUTYPE html>
+
 <html lang="en">
+
 	<head>
+		
 		<meta charset="utf-8">
+		
 		<title>Christmas 2016 Cruise</title>
-
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/theme.css">
-
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+		
 		<style type="text/css">
+		
 			body{
-          background: url(images/sea.jpg);
-        } 
+				background: url(images/sea.jpg);
+			} 
 		</style>
 
 	</head>
 
-<body>
+	<body>
 
-<div id="header">
-		 	<h1>Caribbean Cruise</h1>
+		<div id="header">
+			<h1>Caribbean Cruise</h1>
 			<h3>Christmas 2016</h3>
 			<h3>For more information please fill out form</h3>
 		</div>
 
-<nav>
+		<nav>
 
-<a href="index.html">CRUISE</a>
+			<a href="index.html">CRUISE</a>
+			<a href="map.html">Map</a>
+			<a href="form.html">More information</a>
+			<a href="islands.html">Islands visited</a>
+		
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+			
+				<ul class="dropdown-menu dropdown-menu-right">  
 
+				<li><a  href="#">Tortola</a></li>
+				<li><a  href="#">St Kitts</a></li>
+				<li><a  href="#">Antigua</a></li>
+				<li><a  href="#">St Thomas's</a></li>
+				<li><a  href="#">Barbados</a></li>
+				<li><a  href="#">2nd level dropdown</a></li>
+				<li><a  href="#">2nd level dropdown</a></li>
+			
+			</ul>
 
- <a href="map.html">Map</a>
- <a href="form.html">More information</a>
+		</nav>
 
-<a href="islands.html">Islands</a>
+		<div id="container">
 
-	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
-
-	<ul class="dropdown-menu dropdown-menu-right">        
-          <li><a  href="#">St Kitts</a></li>
-          <li><a  href="#">Antigua</a></li>
-          <li><a  href="#">St Thomas's</a></li>
-          <li><a  href="#">Barbados</a></li>
-          <li><a  href="#">2nd level dropdown</a></li>
-          <li><a  href="#">2nd level dropdown</a></li>
-    </ul>
-</nav>
-
-
-
- 
- 
-
-		<center><img src="images/boat.jpg" alt="Boat" width= "900px" heigth="120px"></center>
-
-			  <p>For more information and details on the cruise please fill in the form and email to the address shown.
-			  <br><br>
-			  <i>
-			  Note this is only for show as an example of a form. </i></p>
-		    
-		  </div>
+			<center> <form>
+			
+				<fieldset class="input-boxes">
+			
+				<label for="fname" class="field"> First Name:</label>
+				<input type="text" id="fname" placeholder="required field" name="fname" />
+			
+				<label for="fname" class="field"> Surname:</label>
+				<input type="text" id="surname" placeholder="required field" name="surname" />
+			
+				<label for="email" class="field">Email:</label>
+				<input id="email" name="email" placeholder="enter email" type="email" />
+			
+				<label for="telephone" class="field">Telephone:</label>
+				<input id="telephone" name="telephone" placeholder="mobile number" pattern="[0-9]{10}" title="Mobile phone number expected beginning 08********" type="tel" />
+			
+				<label for="website" class="field">Website:</label>
+				<input id="website" name="website" placeholder="enter full url" type="url" />
+			
+				<label for="date" class="field"> Date:</label>
+				<input id="date" name="date" type="date" />
+			
+				<label for="message" class="field"> Message:</label>
+				<input id="message" name="message" type="text" textarea="textarea" />
+			
+				<label for="submit" class="field"></label>
+				<input id="submit" type="submit" value="submit" />
+			
+				</fieldset>
+			
+			</center>
 
 		</div>
+
+			<p>For more information and details on the cruise please fill in the form and email to the address shown.
+			<br><br>
+			<i>Note this is only for show as an example of a form. </i></p>
 
 		<div id="footer">
-		 <h6>Copyright Infomation</h6>
+
+			<h6>Copyright Infomation</h6>
 			<h6>Copyright David Evans 2017</h6>
 			<h6>Images supplied by David Evans 2016</h6>
+
 		</div>
 
-			</div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-<script type="text/javascript" src="js.javaset.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+		<script type="text/javascript" src="js.javaset.js"></script>
 
 	</body>
 
