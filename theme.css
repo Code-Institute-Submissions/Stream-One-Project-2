@@ -19,6 +19,62 @@ h2{
       margin-left: 50px;
     }
 
+.dropbtn {
+      background-color: transparent;
+      background-image: none;
+      background-repeat: repeat;
+      color: white;
+      padding: 16px;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+    }
+
+.dropbtn:hover, .dropbtn:focus {
+      background-color: transparent;
+      background-image: none;
+      background-repeat: repeat;
+      color: white;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+.dropdown {
+      background-color: transparent;
+      background-image: none;
+      background-repeat: repeat;
+      position: relative;
+      display: inline-block;
+      border: none;
+    }
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: transparent;
+      color: white;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,25);
+      z-index: 1;
+      border: none;
+    }
+
+.dropdown-content a {
+      color: white;
+      padding: 0px 8px;
+      text-decoration: none;
+      display: block;
+      border: none;
+    }
+
+.dropdown a:hover {background-color: rgba(0,0,0,25)
+    }
+
+.show {display:block;}
+
 #header{
       padding-top: 50px;
       font-family: roboto;
@@ -31,8 +87,9 @@ h2{
 
 #isles{
       width: auto;
-      height: 400px;
-      padding-top: 50px;
+      height: 625px;
+      padding-left: 50px;
+      padding-right: 50px;
       font-family: roboto;
       font-size: xx-large;
       text-align: left;
@@ -53,8 +110,8 @@ h2{
 nav{
       font-family: roboto;
       background-color: ;
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 35px;
+      margin-bottom: 20px;
       margin-right: 100px;
       margin-left: 100px;
       width: auto;
