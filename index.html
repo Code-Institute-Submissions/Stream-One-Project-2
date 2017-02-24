@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Cruise 2016</title>
+    <base href="/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/slideshow.js"></script>
+    
+    <style type="text/css">
+
+        body{
+            background: url(images/sea.jpg);
+        } 
+    
+    </style>
+
+</head>
+
+<div id="header">
+    <h1>Caribbean Cruise</h1>
+    <h3>Christmas 2016</h3>
+    <br>
+</div>
+
+<body ng-app="sampleApp">
+
+<body {
+    padding-top: 10px;
+    }
+
+<nav class="navbar navbar navbar-fixed-top">
+
+<div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#/">CRUISE</a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/map"> Map </a></li>
+        <li><a href="#/form"> Information </a></li>
+        <li><a href="#/islands"> Islands </a></li>
+    </div>
+    
+<div ng-view></div>
+
+<br>
+
+<div id="footer">
+    <h6>Copyright David Evans 2017</h6>
+    <h6>Images supplied by David Evans 2016</h6>
+</div>
+
+<script src="js/myScript.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/slideshow.js"></script>
+
+</body>
+
+</html>

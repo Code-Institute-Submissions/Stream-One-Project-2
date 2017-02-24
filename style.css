@@ -1,0 +1,301 @@
+.map-container {
+	position: relative;
+}
+
+.zoom-controls {
+	position: absolute;
+	top: 1em;
+	left: 0.6em;
+}
+
+.zoom-button {
+	padding: 4px 8px;
+	opacity: 0.8;
+}
+
+select {
+	padding: 0.5em;
+	border-radius: 5px;
+	font-size: 1.4em;
+}
+
+
+
+.dropdown-toggle .icon-bars-button{
+
+  display: block;
+  vertical-align:middle;
+  display: show;
+}
+.dropdown-toggle .icon-bar {
+  margin-bottom:2px;
+  display: show;
+  width: 22px;
+  height: 2px;
+  background-color: black;
+  border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+
+
+
+
+
+
+
+.dropdown-menu {
+   background-color: grey;
+  margin-bottom:2px;
+  display: show;
+  width: 22px;
+  height: auto;
+ color: grey;
+  border-radius: 1px;
+  background-image: none;
+
+      border: none;
+      color: white;
+}
+    
+      
+
+
+img {
+   margin-left: 50px;
+}
+
+
+
+
+
+
+.btn-link {
+    background-color: ;
+	border: 3px solid grey;
+	padding: 5px;
+	margin: 60px;
+	font-size: large;
+	text-decoration: none;
+	color: grey;
+}
+
+div.home-page {
+	background: transparent;
+	font-size: large;
+	text-align: center;
+}
+
+div.home-page h1 {
+	background: transparent;
+	font-size: 300%;
+}
+
+body{
+      font-family: 'Roboto', sans-serif;
+      background: url("images/sea.jpg");
+    } 
+
+p{
+      font-family: roboto;
+      font-size: large;
+      color: white;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+    }
+
+h2{
+      font-family: roboto;
+      color: white;
+      margin-left: 50px;
+    }
+
+.dropbtn {
+      background-color: transparent;
+      background-image: none;
+      background-repeat: repeat;
+      color: white;
+      padding: 16px;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+    }
+
+.dropbtn:hover, .dropbtn:focus {
+      background-color: grey;
+      background-image: none;
+      background-repeat: repeat;
+      color: white;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+
+
+
+
+
+
+.dropdown {
+      background-color: grey;
+      background-image: none;
+      background-repeat: repeat;
+      position: relative;
+      display: inline-block;
+      border: none;
+      color: white;
+    }
+
+
+
+
+
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      color: white;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,25);
+      z-index: 1;
+      border: none;
+    }
+
+.dropdown-content a {
+    background-color: grey;
+      color: white;
+      padding: 0px 8px;
+      text-decoration: none;
+      display: block;
+      border: none;
+    }
+
+.dropdown a:hover {background-color: rgba(0,0,0,25)
+    }
+
+.show {display:block;}
+
+#header{
+      padding-top: 50px;
+      font-family: roboto;
+      font-size: xx-large;
+      text-align: center;
+      margin-top: ;
+      color: white;
+      size: xx-large;  
+    }
+
+#isles{
+      width: auto;
+      height: 625px;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-family: roboto;
+      font-size: xx-large;
+      text-align: left;
+      margin-top: ;
+      color: white;
+      size: xx-large;  
+      overflow: scroll;
+    }
+
+#footer{
+      font-family: roboto;
+      font-size: small;
+      text-align: center;
+      margin-top: ;
+      color: white
+    }
+
+nav{
+      font-family: roboto;
+      background-color: ;
+      margin-top: 35px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      border-radius: ;
+      list-style-type: none;
+    }
+
+a{
+      text-decoration: none;
+      color: white;
+      flex: 4;
+      height: auto;
+      font-family: roboto;
+      padding: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 2em;
+      border: 1px solid white; 
+    }
+
+@media screen and (min-width: 500px){
+      nav{
+      flex-flow: row;
+      align-items: baseline;
+    }
+
+form {
+      color: black;
+      width: 350px;
+      border: 1px solid #999;
+      border-radius: 20px;
+      clear: both;
+      padding: 20px;
+      margin-bottom: 100px;
+      background-color: rgba(129, 187, 201, .2);
+    }
+
+fieldset {
+      margin-bottom: 5px;
+      border: none;
+    }
+
+.field {
+      padding: 6px 8px;
+    }
+    
+label.field,
+    legend {
+      display: block;
+      text-align: left;
+      color: white;
+      width: 100px;
+      float: left;
+      clear: both;
+    }
+
+input {
+      width: 200px;
+      border-radius: 5px;
+      padding: 6px 8px;   
+    }
+
+form.textarea {
+      width: 100px;
+      height: 100px;
+    }
+
+#submit {
+      width: 100%;
+    }
