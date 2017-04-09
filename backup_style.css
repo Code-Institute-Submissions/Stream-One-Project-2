@@ -1,6 +1,39 @@
 .map-container {
-position: relative;
-margin-top: 100px;
+	position: relative;
+   margin-top: 100px;
+}
+
+xxxxxxx.zoom-controls {
+	position: absolute;
+	top: 1em;
+	left: 0.6em;
+}
+
+xxxxxxx.zoom-button {
+	padding: 4px 8px;
+	opacity: 0.8;
+}
+
+xxxxxxselect {
+	padding: 0.5em;
+	border-radius: 5px;
+	font-size: 1.4em;
+}
+
+xxxxx.dropdown-toggle .icon-bars-button{
+
+  display: block;
+  vertical-align:middle;
+  display: show;
+}
+
+xxxxxx.dropdown-toggle .icon-bar {
+margin-bottom:2px;
+display: show;
+width: 22px;
+height: 2px;
+background-color: black;
+border-radius: 1px;
 }
 
 .navbar-toggle .icon-bar {
@@ -13,17 +46,38 @@ border-radius: 1px;
 
 #map {
 margin-top: 200px;
-margin-left: 50px;
-margin-right: 50px;
 }
 
 #home {
 margin-top: 200px;
 }
+
+xxxxxx.dropdown-menu {
+background-color: grey;
+margin-bottom:2px;
+display: show;
+width: 22px;
+height: auto;
+color: grey;
+border-radius: 1px;
+background-image: none;
+border: none;
+color: white;
+}
     
 img {
 margin-left: 50px;
 margin-right: 50px;
+}
+
+xxxxxx.btn-link {
+background-color: ;
+border: 3px solid grey;
+padding: 5px;
+margin: 60px;
+font-size: large;
+text-decoration: none;
+color: grey;
 }
 
 div.home-page {
@@ -58,11 +112,71 @@ color: white;
 margin-left: 50px;
 }
 
+xxxxxxx.dropbtn {
+background-color: transparent;
+background-image: none;
+background-repeat: repeat;
+color: white;
+padding: 16px;
+font-size: 24px;
+border: none;
+cursor: pointer;
+}
+
+xxxxxxx.dropbtn:hover, .dropbtn:focus {
+background-color: grey;
+background-image: none;
+background-repeat: repeat;
+color: white;
+padding: 16px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+}
+
+xxxxxxxx.dropdown {
+background-color: grey;
+background-image: none;
+background-repeat: repeat;
+position: relative;
+display: inline-block;
+border: none;
+color: white;
+}
+
+xxxxxxx.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+color: white;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,25);
+z-index: 1;
+border: none;
+}
+
+xxxxxxx.dropdown-content a {
+background-color: grey;
+color: white;
+padding: 0px 8px;
+text-decoration: none;
+display: block;
+border: none;
+}
+
+xxxxxxxxx.dropdown a:hover {background-color: rgba(0,0,0,25)
+}
+
+xxxxxxx.show {display:block;}
+
 #header{
 padding-top: 50px;
 font-family: roboto;
 font-size: xx-large;
 text-align: center;
+margin-top: ;
+margin-bottom: ;
 color: white;
 size: xx-large;  
 }
@@ -85,6 +199,7 @@ overflow: scroll;
 font-family: roboto;
 font-size: small;
 text-align: center;
+margin-top: ;
 color: white
 }
 
@@ -125,7 +240,7 @@ align-items: baseline;
 
 form {
 color: black;
-width: 550px;
+width: 350px;
 border: 1px solid #999;
 border-radius: 20px;
 clear: both;
