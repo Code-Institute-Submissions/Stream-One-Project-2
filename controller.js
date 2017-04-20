@@ -22,7 +22,15 @@ angular.module('RouteControllers', [])
  
             console.log($scope.registrationUser.username + " " + $scope.registrationUser.password);
         };
+
+
+
+
+Thank you for your request, your form has been submitted;
+
+
+
+
+
     });
-
-
 
