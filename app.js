@@ -1,4 +1,4 @@
- //Define an angular module for our app
+//Define an angular module for our app
 var sampleApp = angular.module('sampleApp', ['RouteControllers']);
 
 sampleApp.config(['$routeProvider',

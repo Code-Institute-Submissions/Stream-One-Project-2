@@ -29,18 +29,18 @@
 				<input id="message" name="message" type="text" textarea="textarea" />
 			
 				<label for="submit" class="field"></label>
-				<input id="submit" type="submit" value="submit" />
+				<input id="submit" type="submit" value="submit" onclick="document.getElementById('confirm').style.color = 'red'" />
 			
 			</fieldset>
 			
 	</center>
 
 </div>
-<br>
-<br>
-<confirm>
+
+<div id='confirm'>
 <h3>Thank you for your request, your form has been submitted</h3>
-</confirm>
+</div id='confirm'>
+
 <br>
 <br>
 
@@ -49,4 +49,3 @@
 <br>
 	<i>Note this is only for show as an example of a form.</i>
 </p>
-
