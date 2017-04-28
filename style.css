@@ -1,0 +1,232 @@
+/***************
+NAV
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+****************/
+
+nav{
+	font-family: roboto;
+	margin-top: 200px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+
+}
+
+.container {
+	vertical-align: top;
+	color: white;
+}
+
+/***************
+HEADING
+****************/
+
+#header{
+	padding-top: 50px;
+	font-family: roboto;
+	font-size: xx-large;
+	text-align: center;
+	color: white;
+	size: xx-large;  
+}
+
+/***************
+FOOTER
+****************/
+
+#footer{
+	font-family: roboto;
+	font-size: small;
+	text-align: center;
+	color: red;
+}
+
+/***************
+CAROUSEL
+****************/
+
+.carousel-control {
+	border: transparent;
+}
+
+/***************
+TEXT
+****************/
+
+a{
+	text-decoration: none;
+	color: white;
+	flex: 4;
+	font-family: roboto;
+	padding: 5px;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid white;
+}
+
+#currency{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#tortola{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#antigua{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#lucia{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#barbados{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#guadeloupe{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#kitts{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#thomas{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#map_desc{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#confirm{
+	font-family: roboto;
+	font-size: large;
+	color: transparent;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#form_blurb{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#carousel_desc{
+	font-family: roboto;
+	font-size: large;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+/***************
+TEXT HEADINGS
+****************/
+
+hr{	
+	margin-right: 100px;
+	margin-left: 100px; 
+}
+
+/***************
+IMAGES
+****************/
+
+#map_fig{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/***************
+FORM
+****************/
+
+form {
+	color: black;
+	width: 350px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	clear: both;
+	padding: 20px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	background-color: rgba(129, 187, 201, .2);
+}
+
+fieldset {
+	margin-bottom: 5px;
+	border: none;
+}
+
+.field {
+	padding: 6px 8px;
+}
+    
+label.field,
+legend {
+	display: block;
+	text-align: left;
+	color: white;
+	width: 100px;
+	float: left;
+	clear: both;
+}
+
+input {
+	width: 200px;
+	border-radius: 5px;
+	padding: 6px 8px;   
+}
+
+form.textarea {
+	width: 100px;
+	height: 100px;
+}
+
+#submit {
+	width: 100%;
+}

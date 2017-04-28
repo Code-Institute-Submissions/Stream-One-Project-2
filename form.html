@@ -1,54 +1,13 @@
-<DOCUTYPE html>
+<br>
+<br>
+<br>
 
-<html lang="en">
+<div id="container">
 
-	<head>
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<center>
+		<form>
 			
-		<title>Christmas 2016 Cruise</title>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-			
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/theme.css">
-	
-		<style type="text/css">
-		
-			body{
-				background: url(images/sea.jpg);
-			} 
-		</style>
-
-	</head>
-
-	<body>
-
-		<div id="header">
-			<h1>Caribbean Cruise</h1>
-			<h3>Christmas 2016</h3>
-			<h3>For more information please fill out form</h3>
-		</div>
-
-		<nav>
-
-			<a href="index.html">CRUISE</a>
-			<a href="map.html">Map</a>
-			<a href="form.html">Information</a>
-			<a href="islands.html">Islands</a>
-		
-		</nav>
-
-		<div id="container">
-
-			<center> <form>
-			
-				<fieldset class="input-boxes">
+			<fieldset class="input-boxes">
 			
 				<label for="fname" class="field"> First Name:</label>
 				<input type="text" id="fname" placeholder="required field" name="fname" />
@@ -72,29 +31,24 @@
 				<input id="message" name="message" type="text" textarea="textarea" />
 			
 				<label for="submit" class="field"></label>
-				<input id="submit" type="submit" value="submit" />
+				<input id="submit" type="submit" value="submit" onclick="document.getElementById('confirm').style.color = 'red'" />
 			
-				</fieldset>
-			
-			</center>
+			</fieldset>
+		</form>	
+	</center>
 
-		</div>
+</div>
 
-			<p>For more information and details on the cruise please fill in the form and email to the address shown.
-			<br><br>
-			<i>Note this is only for show as an example of a form. </i></p>
+<article id="confirm">
+<h3>Thank you for your request, your form has been submitted</h3>
+</article>
 
-		<div id="footer">
+<br>
+<br>
 
-			<h6>Copyright David Evans 2017</h6>
-			<h6>Images supplied by David Evans 2016</h6>
-
-		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-		<script type="text/javascript" src="js.javaset.js"></script>
-
-	</body>
-
-</html>
+<article id="form_blurb">
+	<h3>For more information and details on the cruise please fill in the form and email to the address shown.</p>
+<br>
+<br>
+	<i>Note this is only for show as an example of a form.</i>
+</article>
