@@ -1,8 +1,5 @@
 /***************
 NAV
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-bottom: 20px;
 ****************/
 
 nav{
@@ -41,7 +38,7 @@ FOOTER
 	font-family: roboto;
 	font-size: small;
 	text-align: center;
-	color: red;
+	color: blue;
 }
 
 /***************
@@ -50,6 +47,8 @@ CAROUSEL
 
 .carousel-control {
 	border: transparent;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 /***************
@@ -179,6 +178,11 @@ IMAGES
 #map_fig{
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+#img{
+	width: auto;
+
 }
 
 /***************
